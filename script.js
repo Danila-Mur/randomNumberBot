@@ -1,22 +1,3 @@
-// const gameQuestion = () => {
-//   const insideFun = () => {
-//     const question = +prompt('Угадай число от 1 до 100');
-//     if (question > 100) {
-//       alert('Загаданное число меньше');
-//       insideFun();
-//     } else if (question < 1) {
-//       alert('Загаданное число больше');
-//       insideFun();
-//     } else if (question !== 0) {
-//       alert('Игра окончена');
-//       // return;
-//     }
-//   };
-//   insideFun();
-// };
-
-// gameQuestion();
-
 const isNumber = (num) => {
   return !isNaN(parseFloat(num)) && isFinite(num);
 };
