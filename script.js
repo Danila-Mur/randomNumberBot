@@ -17,15 +17,18 @@ function gameQuestion(x) {
       case !isNumber(question):
         alert('Введите число!');
         insideFun();
+        return;
       case question > x:
         alert('Загаданное число меньше');
         insideFun();
+        return;
       case question < x:
         alert('Загаданное число больше');
         insideFun();
+        return;
       default:
         alert('Поздравляю, Вы угадали!!!');
-        break;
+        return;
     }
   }
   insideFun();
